@@ -26,5 +26,5 @@ function New-Password{
         
         $password = Scramble-String $password
         
-        Write-Host $password
+        return $password
 }
